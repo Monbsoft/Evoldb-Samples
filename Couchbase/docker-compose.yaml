@@ -1,0 +1,14 @@
+version: "3"
+services:
+  couchbase:
+    image: bentonam/couchbase-docker:6.5.0
+    ports:
+      - "8095-8096:8095-8096"
+      - "8091-8094:8091-8094"
+      - "11210-11211:11210-11211"
+    environment:
+      CLUSTER_USERNAME: <REPLACE-WITH-USERNAME>
+      CLUSTER_PASSWORD: <REPLACE-WITH-PASSWORD>
+      CLUSTER_NAME: Evoldb Cluster
+      BUCKET: <REPLACE-WITH-BUCKET>
+      SERVICES: data,index,query,fts,analytics
