@@ -1,0 +1,4 @@
+DELETE FROM `Northwind`
+WHERE type = "author";
+
+DROP PRIMARY INDEX ON `Northwind` USING GSI;

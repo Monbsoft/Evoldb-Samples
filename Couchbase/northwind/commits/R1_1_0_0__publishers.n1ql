@@ -1,0 +1,2 @@
+DELETE FROM `Northwind'
+WHERE type = "publisher"

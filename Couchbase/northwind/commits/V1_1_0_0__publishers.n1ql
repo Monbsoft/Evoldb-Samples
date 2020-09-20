@@ -1,0 +1,53 @@
+INSERT INTO `Northwind` (KEY, VALUE)
+VALUES
+(
+	"0877",
+	{
+		"type": "publisher",
+		"name": "Binnet & Hardley",
+		"city": "Washington",
+		"state": "DC",
+		"country": "USA"
+	}
+);
+
+INSERT INTO `Northwind` (KEY, VALUE)
+VALUES
+(
+	"9952",
+	{
+		"type": "publisher",
+		"name": "Scootney Books",
+		"city": "New York",
+		"state": "NY",
+		"country": "USA"
+	}
+);
+
+INSERT INTO `Northwind` (KEY, VALUE)
+VALUES
+(
+	"1756",
+	{
+		"type": "publisher",
+		"name": "Ramona Publishers",
+		"city": "Dallas",
+		"state": "TX",
+		"country": "USA"
+	}
+);
+
+INSERT INTO `Northwind` (KEY, VALUE)
+VALUES
+(
+	"9999",
+	{
+		"type": "publisher",
+		"name": "Lucerne Publishing",
+		"city": "Paris",
+		"state": "NULL",
+		"country": "France"
+	}
+);
+
+
